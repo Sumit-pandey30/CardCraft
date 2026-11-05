@@ -1,0 +1,54 @@
+# Root gitignore for CardCraft
+target/
+cardcraft-backend/target/
+*.class
+*.jar
+*.war
+
+# Node
+node_modules/
+cardcraft-frontend/node_modules/
+dist/
+cardcraft-frontend/dist/
+.npm
+*.log
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+
+# Environment files
+.env
+.env.local
+.env.production
+backend.env
+
+# Application logs
+logs/
+*.log
+# All nested IDE folders
+**/.idea/
+**/.vscode/
+
+# All nested environment files
+**/.env
+**/.env.*
+!**/.env.example
+
+# Backend environment files
+**/backend.env
+
+# Build outputs
+**/target/
+**/dist/
+**/node_modules/
